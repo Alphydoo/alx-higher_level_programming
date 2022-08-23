@@ -74,7 +74,7 @@ What are the arithmetic operators and how to use them
 * Write a function that prints the numbers from 1 to 100 separated by a space. 
 
 
-### [13. Insert in sorted linked list](./13-insert_number.c, lists.h)
+### [13. Insert in sorted linked list](./13-insert_number.c)
 * Technical interview preparation: 
 
 

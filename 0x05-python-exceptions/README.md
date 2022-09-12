@@ -41,6 +41,18 @@ When do we need to implement a clean-up action after an exception
 ### [6. Raise a message](./6-raise_exception_msg.py)
 * Write a function that raises a name exception with a message.
 
+### [7. Safe integer print with error message](./100-safe_print_integer_err.py)
+* Write a function that prints an integer.
+
+### [8. Safe function](./101-safe_function.py)
+* Write a function that executes a function safely.
+
+### [9. ByteCode -> Python #4](./102-magic_calculation.py)
+* Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
+##3 [10. CPython #2: PyFloatObject](./103-python.c)
+* Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
+
 ---
 
 ## Author

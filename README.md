@@ -19,3 +19,9 @@ ALX's curriculum for high-level programming. These projects are meant to help us
 
 ### [0x05. Python - Exceptions](./0x05-python_Exceptions)
 
+### [0x06. python - classes](./0x06-python_classes)
+
+### [0x07. Python test driven Develop](./0x07-python-test_driven_develop)
+
+### [0x08. Python - More Classes and Objects](./python-More_Classes_and_Objects)
+

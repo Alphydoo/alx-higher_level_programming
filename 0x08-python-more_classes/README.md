@@ -71,6 +71,9 @@ How to use the getattr function
 ### [9. A square is a rectangle](./9-rectangle.py)
 * Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
 
+### [10. N queens](./101-nqueens.py)
+* The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
+
 ---
 
 ## Author

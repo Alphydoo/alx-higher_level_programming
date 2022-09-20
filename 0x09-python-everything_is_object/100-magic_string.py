@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-void print_python_int(PyObject *p):
-    return (0)
-print(void print_python_int(PyObject *p))
+def magic_string(l=[]):
+    l += ["BestSchool"]
+    return ", ".join(l)

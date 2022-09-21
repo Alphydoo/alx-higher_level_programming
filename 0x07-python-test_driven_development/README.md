@@ -36,6 +36,14 @@ How to find edge cases
 ### [5. Max integer - Unittest](./tests/6-max_integer_test.py)
 * Since the beginning you have been creating “Interactive tests”. For this exercise, you will add Unittests.
 
+### [6. Matrix multiplication](./tests/100-matrix_mul.txt)
+* Write a function that multiplies 2 matrices:
+
+### [7. Lazy matrix multiplication](./tests/101-lazy_matrix_mul.txt)
+* Write a function that multiplies 2 matrices by using the module NumPy
+
+### [8. CPython #3: Python Strings](./102-python.c)
+* Create a function that prints Python strings.
 ---
 
 ## Author

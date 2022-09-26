@@ -1,36 +1,24 @@
-Using class ``MyList``
------------------------
+The 1-my_list Module:
 
-Class MyList can store a list
-Has a function print_sorted to print the list in MyList sorted
+    >>> is_same_class = __import__("1-my_list").is_same_class
 
-First import class ``MyList``
+Make Sure Documentation Exists:
 
-    >>> MyList = __import__('1-my_list').MyList
+    >>> module_documentation = __import__("1-my_list").__doc__
+    >>> print(len(module_documentation) > 0)
+    True
 
-Now use it:
+    >>> function_documentation = __import__("1-my_list").is_same_class.__doc__
+    >>> print(len(function_documentation) > 0)
+    True
 
-Basic MyList usage (pos, neg, zero):
-    >>> my_list = MyList()
-    >>> my_list.append(-1)
-    >>> my_list.append(4)
-    >>> my_list.append(3)
-    >>> my_list.append(0)
-    >>> print(my_list)
-    [-1, 4, 3, 0]
+Correct Usage:
 
-Basic print_sorted usage:
-    >>> my_list.print_sorted()
-    [-1, 0, 3, 4]
+    >>> print(is_same_class(1, 2))
+    3
 
-Big int MyList usage:
-    >>> my_list = MyList()
-    >>> my_list.append(999999999999)
-    >>> my_list.append(-1)
-    >>> my_list.append(0)
-    >>> print(my_list)
-    [999999999999, -1, 0]
+On Errors:
 
-Big int print_sorted usage:
-    >>> my_list.print_sorted()
-    [-1, 0, 999999999999]
+    >>> print(is_same_class(4, "School"))
+    Traceback (most recent call last):
+    TypeError: b must be an integer

@@ -1,9 +1,12 @@
 #!/usr/bin/node
-// JS Script
-require('request').get(process.argv[2], function (err, r) {
+
+const request = require('request');
+const URL = process.argv[2];
+
+request(URL, function (err, response) {
   if (err) {
     console.log(err);
   } else {
-    console.log('code: ' + r.statusCode);
+    console.log('code: ' + response.statusCode);
   }
 });
